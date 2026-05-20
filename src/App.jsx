@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 import './index.css';
 import tervistImg from './assets/tervist.jpeg';
 import atomyImg from './assets/1777393612993 (1).jpg';
@@ -201,6 +204,42 @@ const techStack = [
 ];
 
 const bio = "I am a Software Engineering undergraduate with a strong interest in frontend web development, experienced in building user-facing interfaces using HTML, CSS, JavaScript, and React. I am also familiar with Django, Flutter, MongoDB, and PostgreSQL, with a solid understanding of system workflows and SQL. I have strong leadership, am eager to learn, and communicate well in team environments thriving in collaborative settings where consistent attention to detail drives meaningful results.";
+
+/* ── GSAP Scroll-driven word reveal for Goal section ── */
+const goalText = `I want to leverage my experience leading technical projects like Tervist and ScentFix to transition into a Product Management role where I can focus on the "why" behind what we build. My background in software engineering allows me to speak the same language as developers while keeping a sharp eye on user needs and business priorities. I am committed to helping the team ship successful products by streamlining the development process and ensuring every feature we deliver adds genuine value to the customer.`;
+
+const GsapScrollText = ({ text }) => {
+  const containerRef = useRef(null);
+  const words = text.split(' ');
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const spans = containerRef.current.querySelectorAll('.gsap-word');
+      gsap.fromTo(spans,
+        { opacity: 0.15, color: '#9ca3af' },
+        {
+          opacity: 1,
+          color: '#1e1033',
+          stagger: 0.06,
+          ease: 'none',
+          scrollTrigger: {
+            trigger: containerRef.current,
+            start: 'top 80%',
+            end: 'bottom 30%',
+            scrub: 1,
+          },
+        }
+      );
+    }, containerRef);
+    return () => ctx.revert();
+  }, []);
+  return (
+    <p ref={containerRef} className="gsap-text-wrap">
+      {words.map((word, i) => (
+        <span key={i} className="gsap-word">{word}{' '}</span>
+      ))}
+    </p>
+  );
+};
 
 function App() {
   const titles = ['Web Dev (Front End & Back End)', 'Data Analysis', 'Usability Testing', 'AI Engineering'];
@@ -574,17 +613,8 @@ function App() {
         <section className="section-wrap" id="goal">
           <h2 className="section-title goal-title-gradient">My Goal</h2>
 
-          <div className="goal-hero-quote">
-            <span className="goal-quote-mark">"</span>
-            <p>
-              I want to leverage my experience leading technical projects like{' '}
-              <span className="goal-tag-inline goal-tag-purple">Tervist</span> &amp;{' '}
-              <span className="goal-tag-inline goal-tag-blue">ScentFix</span>{' '}
-              to transition into a{' '}
-              <span className="goal-tag-inline goal-tag-pink">Product Management</span>{' '}
-              role — where I focus on the <em>"why"</em> behind what we build.
-            </p>
-            <span className="goal-quote-mark goal-quote-close">"</span>
+          <div className="goal-gsap-wrap">
+            <GsapScrollText text={goalText} />
           </div>
 
           <div className="goal-pillars">

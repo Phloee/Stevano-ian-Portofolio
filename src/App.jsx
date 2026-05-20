@@ -420,7 +420,6 @@ function App() {
             <div className="sc-bottom">
               <div className="sc-author">
                 <div className="sc-author-info">
-                  <span className="sc-author-name">Stevano Ian Fernandy</span>
                   <span className="sc-author-title">Fullstack Developer</span>
                 </div>
               </div>
@@ -490,7 +489,6 @@ function App() {
             <div className="sc-bottom">
               <div className="sc-author">
                 <div className="sc-author-info">
-                  <span className="sc-author-name">Stevano Ian Fernandy</span>
                   <span className="sc-author-title">Project Manager & Product Manager</span>
                 </div>
               </div>
@@ -561,7 +559,6 @@ function App() {
             <div className="sc-bottom">
               <div className="sc-author">
                 <div className="sc-author-info">
-                  <span className="sc-author-name">Stevano Ian Fernandy</span>
                   <span className="sc-author-title">Project Manager & Product Manager</span>
                 </div>
               </div>

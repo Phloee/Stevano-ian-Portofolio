@@ -596,11 +596,11 @@ body {
 .sc-author-info { display: flex; flex-direction: column; gap: 2px; }
 .sc-author-name { font-size: .9rem; font-weight: 700; color: var(--h); }
 .sc-author-title { 
-  font-size: .8rem; 
+  font-size: 0.95rem; 
   font-weight: 700; 
   color: var(--p); 
   background: var(--p-xlight);
-  padding: 0.25rem 0.7rem; 
+  padding: 0.35rem 0.9rem; 
   border-radius: 100px;
   display: inline-block;
   margin-top: 4px;

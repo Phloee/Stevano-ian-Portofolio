@@ -576,7 +576,16 @@ body {
 .sc-author { display: flex; align-items: center; gap: 1rem; }
 .sc-author-info { display: flex; flex-direction: column; gap: 2px; }
 .sc-author-name { font-size: .9rem; font-weight: 700; color: var(--h); }
-.sc-author-title { font-size: .75rem; color: var(--m); }
+.sc-author-title { 
+  font-size: .8rem; 
+  font-weight: 700; 
+  color: var(--p); 
+  background: var(--p-xlight);
+  padding: 0.25rem 0.7rem; 
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 4px;
+}
 .sc-cta {
   background: var(--p); color: #fff;
   padding: .55rem 1.4rem; border-radius: 100px;

@@ -219,13 +219,13 @@ const GsapScrollText = ({ text }) => {
         {
           opacity: 1,
           color: '#7c3aed',
-          stagger: 0.06,
+          stagger: 0.04,
           ease: 'none',
           scrollTrigger: {
             trigger: containerRef.current,
-            start: 'top 80%',
-            end: 'bottom 30%',
-            scrub: 1,
+            start: 'top 85%',
+            end: 'bottom 55%',
+            scrub: 0.5,
           },
         }
       );

@@ -305,7 +305,7 @@ function App() {
               <div className="skill-card">
                 <div className="skill-card-header"><FaCode className="skill-card-icon"/><h3>Programming Languages</h3></div>
                 <ul className="tag-list">
-                  {['JavaScript','TypeScript','Python','Dart','HTML5','CSS3','SQL','Bash / Shell']
+                  {['JavaScript','TypeScript','Python','Dart','HTML5','CSS3','SQL','Bash / Shell','React']
                     .map(s => <li key={s} className="tag">{s}</li>)}
                 </ul>
               </div>
@@ -313,7 +313,7 @@ function App() {
               <div className="skill-card">
                 <div className="skill-card-header"><FaServer className="skill-card-icon"/><h3>Software & Tools</h3></div>
                 <ul className="tag-list">
-                  {['React','Next.js','Django','Flutter','MongoDB','PostgreSQL',
+                  {['Next.js','Django','Flutter','MongoDB','PostgreSQL',
                     'n8n','AWS (VPC)','Hostinger','GitHub','Android Studio',
                     'Notion','Jira','Postman','OpenClaw']
                     .map(s => <li key={s} className="tag">{s}</li>)}
@@ -420,7 +420,7 @@ function App() {
               <div className="sc-author">
                 <div className="sc-author-info">
                   <span className="sc-author-name">Stevano Ian Fernandy</span>
-                  <span className="sc-author-title">Software Engineering · 2023</span>
+                  <span className="sc-author-title">Fullstack Developer</span>
                 </div>
               </div>
               <a href="https://github.com/Doffannoel/Tervist-App" target="_blank" rel="noreferrer" className="sc-cta">
@@ -490,7 +490,7 @@ function App() {
               <div className="sc-author">
                 <div className="sc-author-info">
                   <span className="sc-author-name">Stevano Ian Fernandy</span>
-                  <span className="sc-author-title">Software Engineering · 2023</span>
+                  <span className="sc-author-title">Project Manager & Product Manager</span>
                 </div>
               </div>
               <a href="https://atomykumala.com/" target="_blank" rel="noreferrer" className="sc-cta">
@@ -561,7 +561,7 @@ function App() {
               <div className="sc-author">
                 <div className="sc-author-info">
                   <span className="sc-author-name">Stevano Ian Fernandy</span>
-                  <span className="sc-author-title">Software Engineering · 2023</span>
+                  <span className="sc-author-title">Project Manager & Product Manager</span>
                 </div>
               </div>
               <a href="https://www.scentfix.store/" target="_blank" rel="noreferrer" className="sc-cta">

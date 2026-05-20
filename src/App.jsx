@@ -250,9 +250,10 @@ function App() {
           </div>
 
           {/* Centered text on top */}
-          <p className="hero-eyebrow">Personal Portfolio</p>
-          <h1 className="title">Stevano Ian Fernandy</h1>
-          <div className="major-badge">✦ Software Engineering Major 2023</div>
+          <p className="hero-eyebrow">Welcome to</p>
+          <h1 className="title">Personal Portfolio</h1>
+          <div className="major-badge">✦ by Stevano.</div>
+          <p className="hero-subtitle">2023 - software engineer</p>
         </section>
 
         {/* ── ABOUT ME ── */}

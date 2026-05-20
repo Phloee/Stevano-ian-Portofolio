@@ -570,6 +570,30 @@ function App() {
 
         </section>
 
+        {/* ── GOAL ── */}
+        <section className="section-wrap" id="goal">
+          <h2 className="section-title">Goal</h2>
+          <div className="goal-card">
+            <div className="goal-icon-wrap">
+              <svg className="goal-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
+                <circle cx="12" cy="12" r="6"  stroke="currentColor" strokeWidth="1.5"/>
+                <circle cx="12" cy="12" r="2"  fill="currentColor"/>
+                <line x1="12" y1="2"  x2="12" y2="5"  stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="2"  y1="12" x2="5"  y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            </div>
+            <p className="goal-text">
+              I want to leverage my experience leading technical projects like Tervist and ScentFix to transition into a
+              <span className="goal-highlight"> Product Management</span> role where I can focus on the "why" behind what we build.
+              My background in software engineering allows me to speak the same language as developers while keeping a sharp eye on
+              user needs and business priorities. I am committed to helping the team ship successful products by streamlining the
+              development process and ensuring every feature we deliver adds genuine value to the customer.
+            </p>
+          </div>
+        </section>
 
         <footer className="footer" id="contact">
           <h2 className="footer-title">Let's Get in Touch</h2>

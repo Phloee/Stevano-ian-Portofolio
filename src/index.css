@@ -597,9 +597,14 @@ body {
 .sc-cta:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(124,58,237,.4); }
 
 @media (max-width: 700px) {
-  .sc-visual { grid-template-columns: 1fr; }
-  .sc-info-panel { flex-direction: row; flex-wrap: wrap; }
-  .sc-bottom { flex-direction: column; gap: .75rem; align-items: flex-start; }
+  .showcase-card { padding: 1.5rem 1.25rem 1.25rem; border-radius: 20px; }
+  .sc-heading { font-size: 1.6rem; }
+  .sc-topbar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  .sc-visual { grid-template-columns: 1fr; gap: 1rem; }
+  .sc-info-panel { flex-direction: column; }
+  .sc-bottom { flex-direction: column; gap: 1rem; align-items: stretch; text-align: center; }
+  .sc-author { flex-direction: column; justify-content: center; gap: 0.25rem; }
+  .sc-cta { text-align: center; }
 }
 
 

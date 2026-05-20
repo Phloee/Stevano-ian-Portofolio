@@ -572,27 +572,66 @@ function App() {
 
         {/* ── GOAL ── */}
         <section className="section-wrap" id="goal">
-          <h2 className="section-title">Goal</h2>
-          <div className="goal-card">
-            <div className="goal-icon-wrap">
-              <svg className="goal-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
-                <circle cx="12" cy="12" r="6"  stroke="currentColor" strokeWidth="1.5"/>
-                <circle cx="12" cy="12" r="2"  fill="currentColor"/>
-                <line x1="12" y1="2"  x2="12" y2="5"  stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="2"  y1="12" x2="5"  y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <p className="goal-text">
-              I want to leverage my experience leading technical projects like Tervist and ScentFix to transition into a
-              <span className="goal-highlight"> Product Management</span> role where I can focus on the "why" behind what we build.
-              My background in software engineering allows me to speak the same language as developers while keeping a sharp eye on
-              user needs and business priorities. I am committed to helping the team ship successful products by streamlining the
-              development process and ensuring every feature we deliver adds genuine value to the customer.
+          <h2 className="section-title goal-title-gradient">My Goal</h2>
+
+          <div className="goal-hero-quote">
+            <span className="goal-quote-mark">"</span>
+            <p>
+              I want to leverage my experience leading technical projects like{' '}
+              <span className="goal-tag-inline goal-tag-purple">Tervist</span> &amp;{' '}
+              <span className="goal-tag-inline goal-tag-blue">ScentFix</span>{' '}
+              to transition into a{' '}
+              <span className="goal-tag-inline goal-tag-pink">Product Management</span>{' '}
+              role — where I focus on the <em>"why"</em> behind what we build.
             </p>
+            <span className="goal-quote-mark goal-quote-close">"</span>
           </div>
+
+          <div className="goal-pillars">
+
+            <div className="goal-pillar goal-pillar--purple">
+              <div className="goal-pillar-emoji">🧑‍💻</div>
+              <h3 className="goal-pillar-title">Technical Foundation</h3>
+              <p className="goal-pillar-desc">
+                Built real apps end-to-end. I speak <strong>developer language</strong> fluently — no translation needed between PM and engineering.
+              </p>
+              <div className="goal-pillar-bar">
+                <div className="goal-pillar-bar-fill" style={{width:'92%'}}/>
+              </div>
+              <span className="goal-pillar-stat">92% Engineering Fluency</span>
+            </div>
+
+            <div className="goal-pillar goal-pillar--blue">
+              <div className="goal-pillar-emoji">👥</div>
+              <h3 className="goal-pillar-title">User-Centric Thinking</h3>
+              <p className="goal-pillar-desc">
+                Sharp eye on <strong>user needs</strong> and business priorities. I never lose sight of who we're really building for.
+              </p>
+              <div className="goal-pillar-bar">
+                <div className="goal-pillar-bar-fill" style={{width:'88%'}}/>
+              </div>
+              <span className="goal-pillar-stat">88% User Empathy Score</span>
+            </div>
+
+            <div className="goal-pillar goal-pillar--green">
+              <div className="goal-pillar-emoji">🚀</div>
+              <h3 className="goal-pillar-title">Business Impact</h3>
+              <p className="goal-pillar-desc">
+                Every feature must add <strong>genuine value</strong>. I streamline delivery to ensure what ships actually matters.
+              </p>
+              <div className="goal-pillar-bar">
+                <div className="goal-pillar-bar-fill" style={{width:'85%'}}/>
+              </div>
+              <span className="goal-pillar-stat">85% Impact-Driven Focus</span>
+            </div>
+
+          </div>
+
+          <div className="goal-bottom-banner">
+            <span className="goal-banner-emoji">🎯</span>
+            <p>Committed to shipping products that <strong>users love</strong> and <strong>businesses grow from.</strong></p>
+          </div>
+
         </section>
 
         <footer className="footer" id="contact">

@@ -664,4 +664,8 @@ body {
   .contact-link span { display:none; }
   .tech-panel { padding:1.5rem; }
   .tech-panel-inner { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .skill-card { padding: 1.25rem; }
+  .lang-row { gap: 0.5rem; }
+  .lang-name { min-width: 70px; font-size: 0.85rem; }
+  .lang-badge { min-width: 80px; font-size: 0.65rem; padding: 0.25rem 0.5rem; }
 }

@@ -826,12 +826,6 @@ body {
 }
 .goal-bottom-banner strong { font-weight: 800; }
 
-@media (max-width: 700px) {
-  .goal-pillars { grid-template-columns: 1fr; }
-  .goal-hero-quote { padding: 1.75rem 1.25rem; }
-  .goal-hero-quote p { font-size: 1rem; }
-  .goal-bottom-banner { flex-direction: column; text-align: center; padding: 1.5rem 1rem; }
-}
 
 .footer {
   text-align:center; padding:4rem 0 2.5rem;
@@ -883,14 +877,24 @@ body {
   .tech-panel-inner { grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 }
 @media (max-width:640px) {
-  .title { font-size:3rem; }
+  .app-container { padding: 0 1.2rem 4rem; gap: 4rem; }
+  .title { font-size:2.5rem; }
+  .subtitle { font-size: 1.1rem; }
+  .about-text { font-size: 0.95rem; }
   .skills-grid { grid-template-columns:1fr; }
   .projects-grid { grid-template-columns:1fr; }
+  .project-card { padding: 1.5rem; }
+  .sc-info-panel { grid-template-columns: 1fr; }
+  .sc-author { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .contact-link span { display:none; }
-  .tech-panel { padding:1.5rem; }
+  .tech-panel { padding:1.25rem; }
   .tech-panel-inner { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
-  .skill-card { padding: 1.25rem; }
+  .skill-card { padding: 1rem; }
   .lang-row { gap: 0.5rem; }
-  .lang-name { min-width: 70px; font-size: 0.85rem; }
-  .lang-badge { min-width: 80px; font-size: 0.65rem; padding: 0.25rem 0.5rem; }
+  .lang-name { min-width: 60px; font-size: 0.8rem; }
+  .lang-badge { min-width: 70px; font-size: 0.6rem; padding: 0.2rem 0.4rem; }
+  .goal-gsap-wrap { padding: 2rem 1.5rem; border-radius: 20px; }
+  .gsap-text-wrap { font-size: 1rem; line-height: 1.8; }
+  .footer-title { font-size: 1.8rem; }
+  .footer-subtitle { font-size: 0.9rem; padding: 0 1rem; }
 }

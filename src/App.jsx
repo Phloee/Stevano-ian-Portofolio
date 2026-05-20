@@ -253,7 +253,7 @@ function App() {
           <p className="hero-eyebrow">Welcome to</p>
           <h1 className="title">Personal Portfolio</h1>
           <div className="major-badge">✦ by Stevano.</div>
-          <p className="hero-subtitle">2023 - software engineer</p>
+          <p className="hero-subtitle">2023 - Software Engineer</p>
         </section>
 
         {/* ── ABOUT ME ── */}

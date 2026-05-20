@@ -250,7 +250,7 @@ function App() {
           </div>
 
           {/* Centered text on top */}
-          <p className="hero-eyebrow">Universitas Prasetiya Mulya</p>
+          <p className="hero-eyebrow">Personal Portfolio</p>
           <h1 className="title">Stevano Ian Fernandy</h1>
           <div className="major-badge">✦ Software Engineering Major 2023</div>
         </section>
@@ -590,7 +590,6 @@ function App() {
               <FaGithub/><span>GitHub</span>
             </a>
           </div>
-          <p className="footer-copy">© {new Date().getFullYear()} Stevano Ian Fernandy | Software Engineering, Universitas Prasetiya Mulya</p>
         </footer>
       </div>
     </>

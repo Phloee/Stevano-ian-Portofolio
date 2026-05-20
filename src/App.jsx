@@ -215,10 +215,10 @@ const GsapScrollText = ({ text }) => {
     const ctx = gsap.context(() => {
       const spans = containerRef.current.querySelectorAll('.gsap-word');
       gsap.fromTo(spans,
-        { opacity: 0.15, color: '#9ca3af' },
+        { opacity: 0.15, color: '#c4b5fd' },
         {
           opacity: 1,
-          color: '#1e1033',
+          color: '#7c3aed',
           stagger: 0.06,
           ease: 'none',
           scrollTrigger: {

@@ -670,7 +670,7 @@ body {
   opacity: 0;
   transition: opacity .4s ease;
   z-index: -1;
-  animation: spinOutline 3s linear infinite paused;
+  animation: spinOutline 1.2s linear infinite paused;
 }
 .goal-gsap-wrap::after {
   content: '';
@@ -703,7 +703,7 @@ body {
   font-weight: 600;
   text-align: center;
   margin: 0;
-  color: var(--h);
+  color: var(--p);
 }
 .gsap-word {
   display: inline;

@@ -131,7 +131,7 @@ body {
 }
 /* Text elements float above bubble-field */
 .hero-eyebrow, .title, .major-badge, .hero-subtitle { position: relative; z-index: 1; }
-.hero-eyebrow { font-size:.92rem;font-weight:700;color:var(--p);letter-spacing:.2em;text-transform:uppercase;margin-bottom:.8rem;opacity:.85; }
+.hero-eyebrow { font-size:1rem;font-weight:700;color:var(--p);letter-spacing:.2em;text-transform:uppercase;margin-bottom:.8rem;opacity:.85; }
 .title {
   font-size:4.8rem;font-weight:800;letter-spacing:-.03em;line-height:1.05;
   background: linear-gradient(
@@ -159,14 +159,26 @@ body {
   display:inline-flex;align-items:center;gap:.4rem;
   background:rgba(124,58,237,.10);border:1.5px solid rgba(124,58,237,.22);
   padding:.5rem 1.6rem;border-radius:30px;
-  font-size:.95rem;font-weight:600;color:var(--p);margin-top:1rem;
+  font-size:1rem;font-weight:700;color:var(--p);margin-top:1rem;
 }
 .hero-subtitle {
   font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--h);
-  opacity: 0.8;
+  font-weight: 700;
   margin-top: 0.8rem;
+  background: linear-gradient(
+    120deg,
+    #1e1033 0%,
+    #7c3aed 25%,
+    #a855f7 45%,
+    #c084fc 55%,
+    #7c3aed 75%,
+    #1e1033 100%
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientFlow 8s ease-in-out infinite;
 }
 /* ── Bubble Field — absolute, fills full hero, flanks the name ── */
 .bubble-field {

@@ -611,51 +611,10 @@ function App() {
 
         {/* ── GOAL ── */}
         <section className="section-wrap" id="goal">
-          <h2 className="section-title goal-title-gradient">My Goal</h2>
+          <h2 className="section-title">My Goal</h2>
 
           <div className="goal-gsap-wrap">
             <GsapScrollText text={goalText} />
-          </div>
-
-          <div className="goal-pillars">
-
-            <div className="goal-pillar goal-pillar--purple">
-              <h3 className="goal-pillar-title">Technical Foundation</h3>
-              <p className="goal-pillar-desc">
-                Built real apps end-to-end. I speak <strong>developer language</strong> fluently — no translation needed between PM and engineering.
-              </p>
-              <div className="goal-pillar-bar">
-                <div className="goal-pillar-bar-fill" style={{width:'92%'}}/>
-              </div>
-              <span className="goal-pillar-stat">92% Engineering Fluency</span>
-            </div>
-
-            <div className="goal-pillar goal-pillar--blue">
-              <h3 className="goal-pillar-title">User-Centric Thinking</h3>
-              <p className="goal-pillar-desc">
-                Sharp eye on <strong>user needs</strong> and business priorities. I never lose sight of who we're really building for.
-              </p>
-              <div className="goal-pillar-bar">
-                <div className="goal-pillar-bar-fill" style={{width:'88%'}}/>
-              </div>
-              <span className="goal-pillar-stat">88% User Empathy Score</span>
-            </div>
-
-            <div className="goal-pillar goal-pillar--green">
-              <h3 className="goal-pillar-title">Business Impact</h3>
-              <p className="goal-pillar-desc">
-                Every feature must add <strong>genuine value</strong>. I streamline delivery to ensure what ships actually matters.
-              </p>
-              <div className="goal-pillar-bar">
-                <div className="goal-pillar-bar-fill" style={{width:'85%'}}/>
-              </div>
-              <span className="goal-pillar-stat">85% Impact-Driven Focus</span>
-            </div>
-
-          </div>
-
-          <div className="goal-bottom-banner">
-            <p>Committed to shipping products that <strong>users love</strong> and <strong>businesses grow from.</strong></p>
           </div>
 
         </section>

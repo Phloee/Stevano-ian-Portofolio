@@ -206,7 +206,7 @@ const techStack = [
 const bio = "I am a Software Engineering undergraduate with a strong interest in frontend web development, experienced in building user-facing interfaces using HTML, CSS, JavaScript, and React. I am also familiar with Django, Flutter, MongoDB, and PostgreSQL, with a solid understanding of system workflows and SQL. I have strong leadership, am eager to learn, and communicate well in team environments thriving in collaborative settings where consistent attention to detail drives meaningful results.";
 
 /* ── GSAP Scroll-driven word reveal for Goal section ── */
-const goalText = `I want to leverage my experience leading technical projects like Tervist and ScentFix to transition into a Product Management role where I can focus on the "why" behind what we build. My background in software engineering allows me to speak the same language as developers while keeping a sharp eye on user needs and business priorities. I am committed to helping the team ship successful products by streamlining the development process and ensuring every feature we deliver adds genuine value to the customer.`;
+const goalText = `I want to leverage my experience building real-world projects to develop deep technical skills and a strong engineering career that opens doors internationally. I will use every project, client, and line of code to grow from where I am today into an engineer that global companies compete to hire. The destination is working abroad and every decision I make now is a deliberate step toward that future.`;
 
 const GsapScrollText = ({ text }) => {
   const containerRef = useRef(null);

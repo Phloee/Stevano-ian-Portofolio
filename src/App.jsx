@@ -590,7 +590,6 @@ function App() {
           <div className="goal-pillars">
 
             <div className="goal-pillar goal-pillar--purple">
-              <div className="goal-pillar-emoji">🧑‍💻</div>
               <h3 className="goal-pillar-title">Technical Foundation</h3>
               <p className="goal-pillar-desc">
                 Built real apps end-to-end. I speak <strong>developer language</strong> fluently — no translation needed between PM and engineering.
@@ -602,7 +601,6 @@ function App() {
             </div>
 
             <div className="goal-pillar goal-pillar--blue">
-              <div className="goal-pillar-emoji">👥</div>
               <h3 className="goal-pillar-title">User-Centric Thinking</h3>
               <p className="goal-pillar-desc">
                 Sharp eye on <strong>user needs</strong> and business priorities. I never lose sight of who we're really building for.
@@ -614,7 +612,6 @@ function App() {
             </div>
 
             <div className="goal-pillar goal-pillar--green">
-              <div className="goal-pillar-emoji">🚀</div>
               <h3 className="goal-pillar-title">Business Impact</h3>
               <p className="goal-pillar-desc">
                 Every feature must add <strong>genuine value</strong>. I streamline delivery to ensure what ships actually matters.
@@ -628,7 +625,6 @@ function App() {
           </div>
 
           <div className="goal-bottom-banner">
-            <span className="goal-banner-emoji">🎯</span>
             <p>Committed to shipping products that <strong>users love</strong> and <strong>businesses grow from.</strong></p>
           </div>
 

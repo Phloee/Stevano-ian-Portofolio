@@ -135,6 +135,8 @@ body {
 .title {
   font-size:4.8rem;font-weight:800;letter-spacing:-.03em;line-height:1.05;
   font-style: italic;
+  transform: skewX(-10deg);
+  display: inline-block;
   background: linear-gradient(
     120deg,
     #1e1033 0%,

@@ -739,35 +739,35 @@ body {
 /* Purple pillar */
 .goal-pillar--purple {
   background: linear-gradient(160deg, #f5f3ff 0%, #ede9fe 100%);
-  border: 1.5px solid rgba(124,58,237,.22);
+  border: 1.5px solid var(--p-border);
   box-shadow: 0 4px 20px rgba(124,58,237,.10);
 }
-.goal-pillar--purple:hover { box-shadow: 0 16px 40px rgba(124,58,237,.25); }
-.goal-pillar--purple .goal-pillar-title { color: #7c3aed; }
-.goal-pillar--purple .goal-pillar-bar-fill { background: linear-gradient(90deg, #7c3aed, #a855f7); }
-.goal-pillar--purple .goal-pillar-stat { color: #7c3aed; }
+.goal-pillar--purple:hover { box-shadow: var(--sh-lg); }
+.goal-pillar--purple .goal-pillar-title { color: var(--p); }
+.goal-pillar--purple .goal-pillar-bar-fill { background: linear-gradient(90deg, var(--p), var(--p-light)); }
+.goal-pillar--purple .goal-pillar-stat { color: var(--p); }
 
-/* Blue pillar */
+/* Blue pillar — use purple palette */
 .goal-pillar--blue {
-  background: linear-gradient(160deg, #eff6ff 0%, #dbeafe 100%);
-  border: 1.5px solid rgba(59,130,246,.22);
-  box-shadow: 0 4px 20px rgba(59,130,246,.10);
+  background: linear-gradient(160deg, #f5f3ff 0%, #ede9fe 100%);
+  border: 1.5px solid var(--p-border);
+  box-shadow: 0 4px 20px rgba(124,58,237,.10);
 }
-.goal-pillar--blue:hover { box-shadow: 0 16px 40px rgba(59,130,246,.25); }
-.goal-pillar--blue .goal-pillar-title { color: #2563eb; }
-.goal-pillar--blue .goal-pillar-bar-fill { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
-.goal-pillar--blue .goal-pillar-stat { color: #2563eb; }
+.goal-pillar--blue:hover { box-shadow: var(--sh-lg); }
+.goal-pillar--blue .goal-pillar-title { color: var(--p); }
+.goal-pillar--blue .goal-pillar-bar-fill { background: linear-gradient(90deg, var(--p), var(--p-light)); }
+.goal-pillar--blue .goal-pillar-stat { color: var(--p); }
 
-/* Green pillar */
+/* Green pillar — use purple palette */
 .goal-pillar--green {
-  background: linear-gradient(160deg, #f0fdf4 0%, #dcfce7 100%);
-  border: 1.5px solid rgba(34,197,94,.22);
-  box-shadow: 0 4px 20px rgba(34,197,94,.10);
+  background: linear-gradient(160deg, #f5f3ff 0%, #ede9fe 100%);
+  border: 1.5px solid var(--p-border);
+  box-shadow: 0 4px 20px rgba(124,58,237,.10);
 }
-.goal-pillar--green:hover { box-shadow: 0 16px 40px rgba(34,197,94,.25); }
-.goal-pillar--green .goal-pillar-title { color: #16a34a; }
-.goal-pillar--green .goal-pillar-bar-fill { background: linear-gradient(90deg, #22c55e, #4ade80); }
-.goal-pillar--green .goal-pillar-stat { color: #16a34a; }
+.goal-pillar--green:hover { box-shadow: var(--sh-lg); }
+.goal-pillar--green .goal-pillar-title { color: var(--p); }
+.goal-pillar--green .goal-pillar-bar-fill { background: linear-gradient(90deg, var(--p), var(--p-light)); }
+.goal-pillar--green .goal-pillar-stat { color: var(--p); }
 
 /* Pillar inner elements */
 .goal-pillar-emoji { font-size: 2.5rem; line-height: 1; }
@@ -799,7 +799,7 @@ body {
 /* ── Bottom Banner ── */
 .goal-bottom-banner {
   width: 100%; max-width: 900px;
-  background: linear-gradient(120deg, #7c3aed 0%, #a855f7 40%, #ec4899 80%, #f59e0b 100%);
+  background: linear-gradient(120deg, var(--p) 0%, var(--p-light) 100%);
   border-radius: 18px;
   padding: 1.5rem 2.5rem;
   display: flex;
